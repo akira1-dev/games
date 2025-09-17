@@ -18,13 +18,34 @@ body {
     }
 }
 .mainhead {
-    height: 4cm;
     background: linear-gradient(to right, lightcyan, darkcyan);
     box-shadow: 0px 0px 10px black;
     color: orange;
     display: flex;
     font-family: cursive;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-shadow: 2px 2px 4px red;
+}
+.mainhead button {
+    margin-right: 10px;
+    border: none;
+    background: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.mainhead button:hover {
+    color: orange;
+}
+.border-frame {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+.border-frame input {
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+.logout {
 }

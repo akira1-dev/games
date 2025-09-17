@@ -12,9 +12,10 @@ loginbtn.addEventListener('click', () => {
         loginerror.style.color = "green";
         loginbtn.disabled = true;
         loginbtn.innerText = "Please wait...";
+        localStorage.setItem("loginUser", find.name);
         setTimeout(() => {
             window.location.href = "main/game.htm";
-        }, 3000);
+        }, 2000);
     }
     else {
         loginerror.innerText = "Wrong username or password...";

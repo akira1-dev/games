@@ -1,0 +1,19 @@
+const sniperlist = document.getElementById('sniper-list');
+const srlist = `
+<div class="row gap-2 d-flex justify-content-center">
+<button class="btn btn-dark col col-sm-12 col-lg-4">XPR-50</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">Arctic.50</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">M21 EBR</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">DL Q33</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">Locus</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">NA-45</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">Outlaw</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">Rytex AMR</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">SVD</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">koshka</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">ZRG 20mm</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">HDR</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">LW3-Tundra</button>
+<button class="btn btn-dark col col-sm-12 col-lg-4">3-Line Rifle</button>
+</div>
+`; sniperlist.innerHTML = srlist;
