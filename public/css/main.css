@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkcyan;
+}
+#main-interface {
+    animation: mainAni 1s ease;
+}
+@keyframes mainAni {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.mainhead {
+    height: 4cm;
+    background: linear-gradient(to right, lightcyan, darkcyan);
+    box-shadow: 0px 0px 10px black;
+    color: orange;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px red;
+}
